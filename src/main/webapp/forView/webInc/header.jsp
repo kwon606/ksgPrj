@@ -8,6 +8,6 @@
 </head>
 <body>
 <h2>웹툰</h2>
-
+<a href="/kgsPrj/Main">홈으로가기</a>
 </body>
 </html>

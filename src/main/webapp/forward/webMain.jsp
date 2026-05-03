@@ -18,7 +18,7 @@
 		service = request.getParameter("service");
 	}
 	
-	String serviceUrl = "/"+cate+"/"+service+".jsp";
+	String serviceUrl = "/forward/"+cate+"/"+service+".jsp";
 	
 	Map<String,List<MenuDTO>> menuData = Map.of(
 			"webtoon",
