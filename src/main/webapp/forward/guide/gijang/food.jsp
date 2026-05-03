@@ -8,4 +8,4 @@
 	request.setAttribute("mainUrl", "/forView/info/gijangView.jsp");
 	request.setAttribute("tab", "food");
 %>
-<jsp:forward page="../../../forView/template.jsp"/>
+<jsp:forward page="/forView/template.jsp"/>

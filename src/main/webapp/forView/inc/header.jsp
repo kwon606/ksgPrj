@@ -24,7 +24,7 @@ aside > a{
 <nav>
 
 <a href="/kgsPrj/Email">e-mail</a>
-<a href="/kgsPrj/forward/guide.jsp">guide</a>
+<a href="/kgsPrj/TeamP">guide</a>
 <a href="/kgsPrj/Webtoon">웹툰</a>
 </nav>
 </body>

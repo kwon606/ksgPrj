@@ -20,4 +20,4 @@
 
 
 
-<jsp:forward page="../../forView/template.jsp"/>
+<jsp:forward page="../../forView/guidetemplate.jsp"/>

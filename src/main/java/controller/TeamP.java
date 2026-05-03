@@ -25,7 +25,7 @@ public class TeamP extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		response.sendRedirect("/TeamPrj1/forward/info/main1.jsp");
+		response.sendRedirect("/kgsPrj/forward/guide/main1.jsp");
 	}
 
 	/**
