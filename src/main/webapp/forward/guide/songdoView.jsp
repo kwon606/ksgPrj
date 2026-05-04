@@ -28,10 +28,10 @@
 </style>
 
 <div class="info-tabs">
-    <a href="/TeamPrj1/forward/info/songdo/tour.jsp">관광지정보</a> |
-    <a href="/TeamPrj1/forward/info/songdo/food.jsp">식당정보</a> |
-    <a href="/TeamPrj1/forward/info/songdo/cafe.jsp">카페정보</a> |
-    <a href="/TeamPrj1/forward/info/songdo/stay.jsp">숙박정보</a>
+    <a href="/kgsPrj/forward/guide/songdo/tour.jsp">관광지정보</a> |
+    <a href="/kgsPrj/forward/guide/songdo/food.jsp">식당정보</a> |
+    <a href="/kgsPrj/forward/guide/songdo/cafe.jsp">카페정보</a> |
+    <a href="/kgsPrj/forward/guide/songdo/stay.jsp">숙박정보</a>
 </div>
 
 <hr>
@@ -44,8 +44,8 @@
 
 	<h3><%=request.getAttribute("service") %></h3>
 
-	<img src="/TeamPrj1/fff/songdo/songdo1.jpg" width="300">
-	<img src="/TeamPrj1/fff/songdo/songdo2.jpg" width="300" height="226">
+	<img src="/kgsPrj/img/songdo/songdo1.jpg" width="300">
+	<img src="/kgsPrj/img/songdo/songdo2.jpg" width="300" height="226">
 
 	<p><%=request.getAttribute("mainData") %></p>
 
@@ -55,25 +55,25 @@
 
 	<div class="info-list">
 		<div class="info-item">
-			<img src="/TeamPrj1/fff/songdo/tour1.jpg">
+			<img src="/kgsPrj/img/songdo/tour1.jpg">
 			<h4>관광지1</h4>
 			<p>관광지 간단 설명 들어갈 부분</p>
 			<a href="https://map.naver.com/" target="_blank">관광지주소</a>
 		</div>
 		<div class="info-item">
-			<img src="/TeamPrj1/fff/songdo/tour2.jpg">
+			<img src="/kgsPrj/img/songdo/tour2.jpg">
 			<h4>관광지2</h4>
 			<p>관광지 간단 설명 들어갈 부분</p>
 			<a href="https://map.naver.com/" target="_blank">관광지주소</a>
 		</div>
 		<div class="info-item">
-			<img src="/TeamPrj1/fff/songdo/tour3.jpg">
+			<img src="/kgsPrj/img/songdo/tour3.jpg">
 			<h4>관광지3</h4>
 			<p>관광지 간단 설명 들어갈 부분</p>
 			<a href="https://map.naver.com/" target="_blank">관광지주소</a>
 		</div>
 		<div class="info-item">
-			<img src="/TeamPrj1/fff/songdo/tour4.jpg">
+			<img src="/kgsPrj/img/songdo/tour4.jpg">
 			<h4>관광지4</h4>
 			<p>관광지 간단 설명 들어갈 부분</p>
 			<a href="https://map.naver.com/" target="_blank">관광지주소</a>
@@ -86,25 +86,25 @@
 
 	<div class="info-list">
 		<div class="info-item">
-			<img src="/TeamPrj1/fff/songdo/food1.jpg">
+			<img src="/kgsPrj/img/songdo/food1.jpg">
 			<h4>식당1</h4>
 			<p>식당 간단 설명 들어갈 부분</p>
 			<a href="https://map.naver.com/" target="_blank">식당주소</a>
 		</div>
 		<div class="info-item">
-			<img src="/TeamPrj1/fff/songdo/food2.jpg">
+			<img src="/kgsPrj/img/songdo/food2.jpg">
 			<h4>식당2</h4>
 			<p>식당 간단 설명 들어갈 부분</p>
 			<a href="https://map.naver.com/" target="_blank">식당주소</a>
 		</div>
 		<div class="info-item">
-			<img src="/TeamPrj1/fff/songdo/food3.jpg">
+			<img src="/kgsPrj/img/songdo/food3.jpg">
 			<h4>식당3</h4>
 			<p>식당 간단 설명 들어갈 부분</p>
 			<a href="https://map.naver.com/" target="_blank">식당주소</a>
 		</div>
 		<div class="info-item">
-			<img src="/TeamPrj1/fff/songdo/food4.jpg">
+			<img src="/kgsPrj/img/songdo/food4.jpg">
 			<h4>식당4</h4>
 			<p>식당 간단 설명 들어갈 부분</p>
 			<a href="https://map.naver.com/" target="_blank">식당주소</a>
@@ -117,25 +117,25 @@
 
 	<div class="info-list">
 		<div class="info-item">
-			<img src="/TeamPrj1/fff/songdo/cafe1.jpg">
+			<img src="/kgsPrj/img/songdo/cafe1.jpg">
 			<h4>카페1</h4>
 			<p>카페 간단 설명 들어갈 부분</p>
 			<a href="https://map.naver.com/" target="_blank">카페주소</a>
 		</div>
 		<div class="info-item">
-			<img src="/TeamPrj1/fff/songdo/cafe2.jpg">
+			<img src="/kgsPrj/img/songdo/cafe2.jpg">
 			<h4>카페2</h4>
 			<p>카페 간단 설명 들어갈 부분</p>
 			<a href="https://map.naver.com/" target="_blank">카페주소</a>
 		</div>
 		<div class="info-item">
-			<img src="/TeamPrj1/fff/songdo/cafe3.jpg">
+			<img src="/kgsPrj/img/songdo/cafe3.jpg">
 			<h4>카페3</h4>
 			<p>카페 간단 설명 들어갈 부분</p>
 			<a href="https://map.naver.com/" target="_blank">카페주소</a>
 		</div>
 		<div class="info-item">
-			<img src="/TeamPrj1/fff/songdo/cafe4.jpg">
+			<img src="/kgsPrj/img/songdo/cafe4.jpg">
 			<h4>카페4</h4>
 			<p>카페 간단 설명 들어갈 부분</p>
 			<a href="https://map.naver.com/" target="_blank">카페주소</a>
@@ -148,29 +148,30 @@
 
 	<div class="info-list">
 		<div class="info-item">
-			<img src="/TeamPrj1/fff/songdo/stay1.jpg">
+			<img src="/kgsPrj/img/songdo/stay1.jpg">
 			<h4>숙박1</h4>
 			<p>숙박 간단 설명 들어갈 부분</p>
 			<a href="https://map.naver.com/" target="_blank">숙박주소</a>
 		</div>
 		<div class="info-item">
-			<img src="/TeamPrj1/fff/songdo/stay2.jpg">
+			<img src="/kgsPrj/img/songdo/stay2.jpg">
 			<h4>숙박2</h4>
 			<p>숙박 간단 설명 들어갈 부분</p>
 			<a href="https://map.naver.com/" target="_blank">숙박주소</a>
 		</div>
 		<div class="info-item">
-			<img src="/TeamPrj1/fff/songdo/stay3.jpg">
+			<img src="/kgsPrj/img/songdo/stay3.jpg">
 			<h4>숙박3</h4>
 			<p>숙박 간단 설명 들어갈 부분</p>
 			<a href="https://map.naver.com/" target="_blank">숙박주소</a>
 		</div>
 		<div class="info-item">
-			<img src="/TeamPrj1/fff/songdo/stay4.jpg">
+			<img src="/kgsPrj/img/songdo/stay4.jpg">
 			<h4>숙박4</h4>
 			<p>숙박 간단 설명 들어갈 부분</p>
 			<a href="https://map.naver.com/" target="_blank">숙박주소</a>
 		</div>
 	</div>
+
 
 <% } %>

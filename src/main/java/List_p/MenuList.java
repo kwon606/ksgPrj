@@ -11,9 +11,10 @@ public class MenuList {
 		menuData = Map.of(
 				"관광지",
 				List.of(
-						new MenuDTO("/TeamPrj1/forward/info/main1.jsp", "기장"),
-						new MenuDTO("/TeamPrj1/forward/info/main2.jsp", "남포동"),
-						new MenuDTO("/TeamPrj1/forward/info/main3.jsp", "송도")
+						new MenuDTO("/kgsPrj/forward/guide/main1.jsp", "기장"),
+						new MenuDTO("/kgsPrj/forward/guide/main2.jsp", "남포동"),
+						new MenuDTO("/kgsPrj/forward/guide/main3.jsp", "송도")
+						
 				)
 		);
 	}

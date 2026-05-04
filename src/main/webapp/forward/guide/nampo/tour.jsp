@@ -7,8 +7,8 @@
 
 	request.setAttribute("cate", "남포동");
 	request.setAttribute("menuData", new MenuList().menuList(cate));
-	request.setAttribute("mainUrl", "/forView/info/nampoView.jsp");
+	request.setAttribute("mainUrl", "/forward/guide/nampoView.jsp");
 	request.setAttribute("tab", "tour");
 %>
 
-<jsp:forward page="../../../forView/template.jsp"/>
+<jsp:forward page="../../../forView/guidetemplate.jsp"/>

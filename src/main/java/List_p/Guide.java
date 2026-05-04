@@ -1,4 +1,4 @@
-package controller;
+package List_p;
 
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
@@ -7,15 +7,17 @@ import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-
-@WebServlet("/TeamP")
-public class TeamP extends HttpServlet {
+/**
+ * Servlet implementation class Guide
+ */
+@WebServlet("/Guide")
+public class Guide extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
     /**
      * @see HttpServlet#HttpServlet()
      */
-    public TeamP() {
+    public Guide() {
         super();
         // TODO Auto-generated constructor stub
     }

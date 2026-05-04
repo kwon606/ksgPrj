@@ -7,8 +7,8 @@
 
 	request.setAttribute("cate", "송도");
 	request.setAttribute("menuData", new MenuList().menuList(cate));
-	request.setAttribute("mainUrl", "/forView/info/songdoView.jsp");
+	request.setAttribute("mainUrl", "/forward/guide/songdoView.jsp");
 	request.setAttribute("tab", "food");
 %>
 
-<jsp:forward page="../../../forView/template.jsp"/>
+<jsp:forward page="../../../forView/guidetemplate.jsp"/>

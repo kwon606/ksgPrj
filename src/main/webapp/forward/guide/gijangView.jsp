@@ -25,13 +25,16 @@
 	.gijang-item p {
 		margin: 0 0 8px;
 	}
+	
+	
 </style>
 
+
 <div class="gijang-tabs">
-    <a href="/TeamPrj1/forward/info/gijang/tour.jsp">관광지정보</a> |
-    <a href="/TeamPrj1/forward/info/gijang/food.jsp">식당정보</a> |
-    <a href="/TeamPrj1/forward/info/gijang/cafe.jsp">카페정보</a> |
-    <a href="/TeamPrj1/forward/info/gijang/stay.jsp">숙박정보</a>
+    <a href="/kgsPrj/forward/guide/gijang/tour.jsp">관광지정보</a> |
+    <a href="/kgsPrj/forward/guide/gijang/food.jsp">식당정보</a> |
+    <a href="/kgsPrj/forward/guide/gijang/cafe.jsp">카페정보</a> |
+    <a href="/kgsPrj/forward/guide/gijang/stay.jsp">숙박정보</a>
 </div>
 
 <hr>
@@ -44,8 +47,8 @@
 
 	<h3><%=request.getAttribute("service") %></h3>
 
-	<img src="/TeamPrj1/fff/gijang/gijang1.jpg" width="300">
-	<img src="/TeamPrj1/fff/gijang/gijang2.jpg" width="300" height="226">
+	<img src="/kgsPrj/img/gijang/gijang1.jpg" width="300">
+	<img src="/kgsPrj/img/gijang/gijang2.jpg" width="300" height="226">
 
 	<p><%=request.getAttribute("mainData") %></p>
 
@@ -55,25 +58,25 @@
 
 	<div class="gijang-list">
 		<div class="gijang-item">
-			<img src="/TeamPrj1/fff/gijang/tour1.jpg">
+			<img src="/kgsPrj/img/gijang/tour1.jpg">
 			<h4>스카이라인 루지</h4>
 			<p>다양한 액티비티 활동을 체험 하는 곳</p>
 			<a href="https://busan.skylineluge.kr/" target="_blank">공식홈페이지</a>
 		</div>
 		<div class="gijang-item">
-			<img src="/TeamPrj1/fff/gijang/tour2.jpg">
+			<img src="/kgsPrj/img/gijang/tour2.jpg">
 			<h4>죽성드림세트장</h4>
 			<p>기장의 풍경과 관광지 구경 하는 곳</p>
 			<a href="https://map.naver.com/p/entry/place/33500362?placePath=/home?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202605030856&locale=ko&svcName=map_pcv5&c=15.00,0,0,0,dh" target="_blank">관광지주소</a>
 		</div>
 		<div class="gijang-item">
-			<img src="/TeamPrj1/fff/gijang/tour3.jpg">
+			<img src="/kgsPrj/img/gijang/tour3.jpg">
 			<h4>일광 해수욕장</h4>
 			<p>기장의 8경 중 하나인 해수욕장 </p>
 			<a href="https://map.naver.com/p/entry/place/13490896?c=15.00,0,0,0,dh&placePath=/home?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202605030931&locale=ko&svcName=map_pcv5" target="_blank">관광지주소</a>
 		</div>
 		<div class="gijang-item">
-			<img src="/TeamPrj1/fff/gijang/tour4.jpg">
+			<img src="/kgsPrj/img/gijang/tour4.jpg">
 			<h4>해운대 캡슐열차</h4>
 			<p>해안절경을 공중에서 관람하는 곳</p>
 			<a href="https://map.naver.com/p/entry/place/1287134328?c=15.00,0,0,0,dh" target="_blank">관광지주소</a>
@@ -86,7 +89,7 @@
 
 	<div class="gijang-list">
 		<div class="gijang-item">
-			<img src="/TeamPrj1/fff/gijang/food1.jpg">
+			<img src="/kgsPrj/img/gijang/food1.jpg">
 			<h4>어느 멋진날</h4>
 			<p>
 			전복 버터구이, 전복밥, 홍게살덮밥, 새우장덮밥 등 다양한 해산물 요리를 맛볼 수 있는 기장 해안가의 인기 맛집<br/>
@@ -97,7 +100,7 @@
 		</div>
 		
 		<div class="gijang-item">
-			<img src="/TeamPrj1/fff/gijang/food2.jpg">
+			<img src="/kgsPrj/img/gijang/food2.jpg">
 			<h4>파도정원 화덕생선구이 기장본점</h4>
 			<p>
 			신선한 생선과 정갈한 밑반찬이 특징인 한식 전문점<br/>
@@ -107,7 +110,7 @@
 			<a href="https://map.naver.com/p/entry/place/1327095728?lng=129.2238723&lat=35.1975757&placePath=%2Fhome&entry=plt&searchType=place&c=15.00,0,0,0,dh" target="_blank">식당주소</a>
 		</div>
 		<div class="gijang-item">
-			<img src="/TeamPrj1/fff/gijang/food3.jpg">
+			<img src="/kgsPrj/img/gijang/food3.jpg">
 			<h4>일광 바다 횟집</h4>
 			<p>
 			일광바다횟집은 신선한 해산물 요리와 멸치쌈밥으로 이름난 부산의 맛집<br/>
@@ -117,7 +120,7 @@
 			<a href="https://map.naver.com/p/entry/place/19387003?lng=129.2335011&lat=35.2609107&placePath=/home?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202605030945&locale=ko&svcName=map_pcv5&entry=plt&searchType=place&c=15.00,0,0,0,dh" target="_blank">식당주소</a>
 		</div>
 		<div class="gijang-item">
-			<img src="/TeamPrj1/fff/gijang/food4.jpg">
+			<img src="/kgsPrj/img/gijang/food4.jpg">
 			<h4>바다앤장어 기장점</h4>
 			<p>강사님 여름 보신은 장으아입니까</p>
 			<a href="https://map.naver.com/p/entry/place/1669714923?lng=129.2500028&lat=35.2725919&placePath=/home?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202605030948&locale=ko&svcName=map_pcv5&entry=plt&searchType=place&c=15.00,0,0,0,dh" target="_blank">식당주소</a>
@@ -130,14 +133,14 @@
 
 	<div class="gijang-list">
 		<div class="gijang-item">
-			<img src="/TeamPrj1/fff/gijang/cafe1.jpg">
+			<img src="/kgsPrj/img/gijang/cafe1.jpg">
 			<h4>칠암사계</h4>
 			<p>여기 소금빵 진짜 개존맛탱구리</p>
 			<a href="https://map.naver.com/p/entry/place/1101934691?lng=129.2591596&lat=35.2998247&placePath=/home?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202605031002&locale=ko&svcName=map_pcv5&entry=plt&searchType=place&c=15.00,0,0,0,dh" target="_blank">카페주소</a>
 		</div>
 		
 		<div class="gijang-item">
-			<img src="/TeamPrj1/fff/gijang/cafe2.jpg">
+			<img src="/kgsPrj/img/gijang/cafe2.jpg">
 			<h4>웨이브온</h4>
 			<p>
 			경치 좋은 카페1 <br/>
@@ -146,7 +149,7 @@
 			<a href="https://map.naver.com/p/entry/place/859310081?lng=129.2697668&lat=35.3222748&placePath=/home?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202605031003&locale=ko&svcName=map_pcv5&entry=plt&searchType=place&c=15.15,0,0,0,dh" target="_blank">카페주소</a>
 		</div>
 		<div class="gijang-item">
-			<img src="/TeamPrj1/fff/gijang/cafe3.jpg">
+			<img src="/kgsPrj/img/gijang/cafe3.jpg">
 			<h4>헤이든카페</h4>
 			<p>
 			경치 좋은 카페2<br/>
@@ -154,7 +157,7 @@
 			<a href="https://map.naver.com/p/entry/place/1780456812?lng=129.2566999&lat=35.2824233&placePath=/photo&entry=plt&searchType=place&c=15.00,0,0,0,dh" target="_blank">카페주소</a>
 		</div>
 		<div class="gijang-item">
-			<img src="/TeamPrj1/fff/gijang/cafe4.jpg">
+			<img src="/kgsPrj/img/gijang/cafe4.jpg">
 			<h4>OFF.O</h4>
 			<p>
 			경치 좋은 카페3<br/>
@@ -169,29 +172,31 @@
 
 	<div class="gijang-list">
 		<div class="gijang-item">
-			<img src="/TeamPrj1/fff/gijang/stay1.jpg">
+			<img src="/kgsPrj/img/gijang/stay1.jpg">
 			<h4>숙박1</h4>
 			<p>숙박 간단 설명 들어갈 부분</p>
 			<a href="https://map.naver.com/" target="_blank">숙박주소</a>
 		</div>
 		<div class="gijang-item">
-			<img src="/TeamPrj1/fff/gijang/stay2.jpg">
+			<img src="/kgsPrj/img/gijang/stay2.jpg">
 			<h4>숙박2</h4>
 			<p>숙박 간단 설명 들어갈 부분</p>
 			<a href="https://map.naver.com/" target="_blank">숙박주소</a>
 		</div>
 		<div class="gijang-item">
-			<img src="/TeamPrj1/fff/gijang/stay3.jpg">
+			<img src="/kgsPrj/img/gijang/stay3.jpg">
 			<h4>숙박3</h4>
 			<p>숙박 간단 설명 들어갈 부분</p>
 			<a href="https://map.naver.com/" target="_blank">숙박주소</a>
 		</div>
 		<div class="gijang-item">
-			<img src="/TeamPrj1/fff/gijang/stay4.jpg">
+			<img src="/kgsPrj/img/gijang/stay4.jpg">
 			<h4>숙박4</h4>
 			<p>숙박 간단 설명 들어갈 부분</p>
 			<a href="https://map.naver.com/" target="_blank">숙박주소</a>
 		</div>
 	</div>
 
+
 <% } %>
+

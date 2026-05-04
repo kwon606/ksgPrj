@@ -38,10 +38,21 @@
 	
 		
 %>
+<style>
+.wrapper{
+	width: 1000px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	}
+</style>
 <title>웹툰 사이트</title>
 </head>
 <body>
-	<h1>웹툰</h1>
+<div class="wrapper">
+	
 	<jsp:include page="/forView/webInc/webtoonStyle.jsp"/>
 	<table border="">
 <tr>
@@ -66,5 +77,6 @@
     </td>
 </tr>
 </table>
+</div>
 </body>
 </html>

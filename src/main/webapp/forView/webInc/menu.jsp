@@ -7,6 +7,15 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
+<style>
+div{
+  display: flex;
+  justify-content: center;   
+  align-items: center;       
+  gap: 40px;
+  padding: 30px 0px;
+}
+</style>
 </head>
 <body>
 	<%
@@ -20,6 +29,7 @@
             <%=m.getTitle()%>
         </a>
     </div>
+    
 <%
     }
 %>

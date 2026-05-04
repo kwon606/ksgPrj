@@ -5,7 +5,7 @@
 	String cate = "관광지";
 	request.setAttribute("cate", "기장");
 	request.setAttribute("menuData", new MenuList().menuList(cate));
-	request.setAttribute("mainUrl", "/forView/info/gijangView.jsp");
+	request.setAttribute("mainUrl", "/forward/guide/gijangView.jsp");
 	request.setAttribute("tab", "stay");
 %>
-<jsp:forward page="../../../forView/template.jsp"/>
+<jsp:forward page="../../../forView/guidetemplate.jsp"/>

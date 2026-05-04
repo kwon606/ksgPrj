@@ -12,6 +12,14 @@ String cate = (String)request.getAttribute("cate");
 <meta charset="UTF-8">
 <title>template</title>
 <style>
+.wrapper{
+	width: 1000px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	}
 
 
 	
@@ -31,7 +39,10 @@ String cate = (String)request.getAttribute("cate");
 </style>
 </head>
 <body>
-<h1>emailtemplate</h1>
+
+<div class="wrapper">
+
+
 <table border="">
 	<tr>
 		<td colspan="2">
@@ -52,5 +63,6 @@ String cate = (String)request.getAttribute("cate");
 		</td>
 	</tr>
 </table>
+</div>
 </body>
 </html>

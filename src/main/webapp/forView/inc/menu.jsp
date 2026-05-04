@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-
+<img src="../img/naver/naverMain.jpg" width="800">
 </body>
 </html>
